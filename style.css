@@ -1,0 +1,93 @@
+.container {
+  display: flex;
+}
+.grid {
+  width: 300px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #847bcf;
+  margin-left: 550px;
+}
+
+body {
+  background-color: #a0c1e8;
+}
+
+h1 {
+  color: #551c84;
+  font-family: sans-serif;
+  text-align: center;
+  margin-bottom:15px;
+}
+
+h3{
+  color: #5d53b8;
+  font-family: sans-serif;
+  font-size: 25px;
+  text-align: center;
+  margin-top:-10px;
+}
+
+button {
+  background-color: #2c0c5c;
+  color: #d5c4b5;
+  border: none;
+  font-size: 14px;
+  padding: 8px 12px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+
+}
+.grid div {
+  height:30px;
+  width: 30px;
+}
+
+.tetromino {
+  background-color: #847bcf;
+}
+
+.mini-grid {
+  margin-left: 50px;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #788ae1;
+}
+
+.mini-grid div {
+  height: 30px;
+  width: 30px;
+}
+
+.bettyBlush{
+  background-image: url(https://i.imgur.com/2BP4gbC.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bettyDab{
+  background-image: url(https://i.imgur.com/NCBRrCM.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bettyWave{
+  background-image: url(https://i.imgur.com/4DNCFLF.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bettyGiggle{
+  background-image: url(https://i.imgur.com/AHg6BCq.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bettyCookie{
+  background-image: url(https://i.imgur.com/WAXLCMA.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
